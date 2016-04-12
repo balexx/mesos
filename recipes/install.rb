@@ -17,7 +17,8 @@
 # limitations under the License.
 #
 
-include_recipe 'java'
+# NOTE: we rely on ob-java instead of java (abalk)
+include_recipe 'ob-java'
 
 #
 # Install default repos

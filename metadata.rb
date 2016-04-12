@@ -12,7 +12,7 @@ version '3.5.1'
 end
 
 # Cookbook dependencies
-%w( java apt ).each do |cb|
+%w( ob-java apt ).each do |cb|
   depends cb
 end
 
